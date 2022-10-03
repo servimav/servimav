@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply py-2 px-5 border rounded cursor-pointer text-center;
+  }
+
+  .card {
+    @apply bg-white p-4 border border-gray-100 rounded;
+  }
+
+  .card-shadow {
+    @apply card shadow-lg shadow-gray-300;
+  }
+
+  /* 
+  * ===========================
+  * ======= Sidebar
+  * ===========================
+  */
+
+  .left-sidebar {
+    width: 300px;
+    height: 100vh;
+    overflow-y: scroll;
+    position: fixed;
+    z-index: 10;
+    float: left;
+    transition: transform 0.5s;
+  }
+
+  .show-sidebar {
+    transform: translateX(0px) !important;
+  }
+
+  /* Custom Scroll */
+  .left-sidebar::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  .main-content {
+    float: right;
+    width: calc(100% - 300px);
+    background-color: white;
+  }
+
+  .main-content-move {
+    transform: translateX(300px) !important;
+  }
+
+  .main-content,
+  .left-sidebar {
+    transition: transform 0.2s linear 0.1s;
+  }
+
+  /* Sidebar responsive */
+
+  @media screen and (max-width: 768px) {
+
+    body {
+      overflow-x: hidden !important;
+    }
+
+    .left-sidebar {
+      transform: translateX(-300px);
+    }
+
+    .main-content {
+      width: 100%;
+    }
+  }
+}
+
+@layer base {
+  section {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    margin: 3rem 0.2rem 3rem 0.2rem;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+
+}

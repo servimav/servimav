@@ -1,0 +1,74 @@
+/**
+ * =========================
+ * ====== Animations
+ * =========================
+ */
+/**
+ * =========================
+ * ====== Key Frames
+ * =========================
+ */
+@keyframes opacity-transform-animation {
+  from {
+    opacity: 0;
+    transform: translate(50px, 50px);
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity-transformX-animation {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity-transform-x-animation {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity-transformY-animation {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity-transform-y-animation {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity-animation {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "about": [
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit enim minima impedit doloribus ad voluptates, qui expedita sequi veritatis officia ullam cum delectus sit consectetur debitis perspiciatis non inventore.",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit enim minima impedit doloribus ad voluptates, qui expedita sequi veritatis officia ullam cum delectus sit consectetur debitis perspiciatis non inventore."
+  ],
+  "developer": {
+    "name": "Adrian",
+    "lastName": "Capote Quintana",
+    "email": "adriancapote95@gmail.com",
+    "phone": "+53 53375180",
+    "skill": "Fullstack Web Developer",
+    "profileImg": "/img/img3.jpg"
+  },
+  "site": {
+    "introImg": "/img/img2.jpg"
+  },
+  "skills": [
+    "fullstack",
+    "android",
+    "git",
+    "html5",
+    "css3",
+    "typescript",
+    "laravel",
+    "nodejs",
+    "vuejs"
+  ]
+}

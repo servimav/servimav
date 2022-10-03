@@ -1,0 +1,25 @@
+{
+  "about": [
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit enim minima impedit doloribus ad voluptates, qui expedita sequi veritatis officia ullam cum delectus sit consectetur debitis perspiciatis non inventore.",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit enim minima impedit doloribus ad voluptates, qui expedita sequi veritatis officia ullam cum delectus sit consectetur debitis perspiciatis non inventore."
+  ],
+  "developer": {
+    "name": "Darian",
+    "lastName": "Capote Quintana",
+    "email": "darian.capote@gmail.com",
+    "phone": "+53 53927128",
+    "skill": "Frontend Web Developer",
+    "profileImg": "/img/img2.jpg"
+  },
+  "site": {
+    "introImg": "/img/img2.jpg"
+  },
+  "skills": [
+    "git",
+    "html5",
+    "css3",
+    "typescript",
+    "vuejs",
+    "nodejs"
+  ]
+}
