@@ -12,13 +12,13 @@ const { modelValue } = toRefs($props)
 
 
 <template>
-  <aside class="left-sidebar" :class="{'show-sidebar': modelValue}">
-    <div class="p-5 bg-gray-200 h-full">
+  <aside class="left-sidebar text-white " :class="{'show-sidebar': modelValue}">
+    <div class="p-5 bg-gray-800 h-full">
 
       <!-- Author -->
       <div class="text-center mt-8">
 
-        <ul class="font-light mt-3 text-black">
+        <ul class="font-light mt-3">
           <li>
             <a href="#section-intro" @click="$emit('click-link')">Home</a>
           </li>
@@ -33,7 +33,15 @@ const { modelValue } = toRefs($props)
           </li>
         </ul>
       </div>
+      <div class="mt-4 pr-4 font-thin text-sm text-justify absolute bottom-10">
 
+        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe unde ipsum
+          provident quidem
+          porro
+          fugiat
+          pariatur molestiae, optio iste tempore, tempora accusamus? Natus quidem unde nemo eveniet facere sunt saepe.
+        </p>
+      </div>
     </div>
     <dev-footer class="absolute bottom-0 w-full" />
 

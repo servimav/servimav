@@ -7,7 +7,7 @@ const showSidebar = ref(false);
 </script>
 
 <template>
-  <div class="xl:px-20 text-gray-800 bg-gray-200">
+  <div class="text-gray-800 bg-gray-200">
 
     <sidebar-button class="md:hidden" position="left" v-model="showSidebar" />
 

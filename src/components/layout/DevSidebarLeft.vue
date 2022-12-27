@@ -55,11 +55,6 @@ ul>li {
   cursor: pointer;
 }
 
-li:hover {
-  border: solid 1px;
-  box-shadow: 1rem;
-}
-
 .bg-img {
   background-image: v-bind('bgUrl')
 }
